@@ -94,7 +94,7 @@ def killSpaceRock():
 	spaceRockY = -200
 	#increase spaceRockSpeed over time per button pressed, algorithm acceleration slower over time
 	if spaceRockSpeed <= 13:
-		spaceRockSpeed += 0.8
+		spaceRockSpeed += 0.7
 	elif spaceRockSpeed > 10 and spaceRockSpeed <= 50:
 		spaceRockSpeed += 0.5
 	elif spaceRockSpeed > 50 and spaceRockSpeed <= 100:
@@ -135,7 +135,7 @@ def game(surface):
 	jimY = 470
 	spaceRockX = 0
 	spaceRockY = 0
-	spaceRockSpeed = 9
+	spaceRockSpeed = 6
 	killCount = 0
 	jumbiX = 0
 	jumbiY = -1000
